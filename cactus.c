@@ -6,4 +6,5 @@ int factorial(int nb)
         nb = nb * temp;
         temp - 1;
     }
+    printf("caca");
 }
