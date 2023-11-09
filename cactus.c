@@ -1,4 +1,4 @@
-int pipi(int nb)
+int factorial(int nb)
 {
     int temp = nb - 1;
 
@@ -6,4 +6,9 @@ int pipi(int nb)
         nb = nb * temp;
         temp - 1;
     }
+}
+
+void my_putchar(char c)
+{
+    write(1, &c, 1);
 }
