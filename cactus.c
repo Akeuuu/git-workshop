@@ -1,4 +1,4 @@
-int factorial(int nb)
+int pipi(int nb)
 {
     int temp = nb - 1;
 
