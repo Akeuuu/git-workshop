@@ -6,11 +6,7 @@ int factorial(int nb)
         nb = nb * temp;
         temp - 1;
     }
-}
 
-void my_putchar(char c)
-{
-    write(1, &c, 1);
+    printf("catacousse");
 
-    printf("catcous");
 }
